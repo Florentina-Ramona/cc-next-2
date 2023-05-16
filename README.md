@@ -107,3 +107,11 @@ Pagina Search.jsx conține apelarea unui request de tip GET '/api/records' în f
 setRecords(json.data.filter(record => record.tip === filterType));
 Se afișează în interfața aplicației prin intermediul records.map((record =>(key={record.id}. Sunt afișate detalii din baza de date, precum: {record.denumire}-{record.firma}, {record.tip}.
 </p>
+<h2>
+6.	Referințe
+</h2>
+<p>
+https://www.postman.com/product/api-repository/
+https://cloud.mongodb.com/
+https://vercel.com/
+</p>
