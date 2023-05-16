@@ -111,7 +111,7 @@ Se afișează în interfața aplicației prin intermediul records.map((record =>
 6.	Referințe
 </h2>
 <p>
-https://www.postman.com/product/api-repository/
-https://cloud.mongodb.com/
-https://vercel.com/
+https://www.postman.com/product/api-repository/</br>
+https://cloud.mongodb.com/</br>
+https://vercel.com/</br>
 </p>
