@@ -28,6 +28,7 @@
         }
     ]
 }
+```
 </p>
 <p>
 -exemplu de request de tip INSERT folosind localhost:3000//api/records?denumire=Paracetamol, 500 mg&firma=ZENTIVA&tip=PM: acesta întoarce ca și rezultat un JSON având următoarea structură:
