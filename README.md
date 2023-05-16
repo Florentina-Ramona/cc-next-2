@@ -1,8 +1,11 @@
-<p>##Vom analiza următoarele tipuri de request ce se apelează în aplicație:
+<p>Vom analiza următoarele tipuri de request ce se apelează în aplicație:
 </p>
 <p>
 -exemplu de request de tip GET folosind localhost:3000/api/records: acesta întoarce ca și rezultat un JSON ce conține toate elementele stocate în baza de date de tip MongoDB. Fiecare element al JSON-ului are următoarea structură: id-ul, denumirea, firma și tipul medicamentului.</p>
 <p>
+## JSON Data
+
+```json  
 {
     "data": [
         {
@@ -27,7 +30,11 @@
 }
 </p>
 <p>
--exemplu de request de tip INSERT folosind localhost:3000//api/records?denumire=Paracetamol, 500 mg&firma=ZENTIVA&tip=PM: acesta întoarce ca și rezultat un JSON având următoarea structură: {
+-exemplu de request de tip INSERT folosind localhost:3000//api/records?denumire=Paracetamol, 500 mg&firma=ZENTIVA&tip=PM: acesta întoarce ca și rezultat un JSON având următoarea structură:
+## JSON Data
+
+```json  
+{
     "data": {
         "acknowledged": true,
         "insertedId": "6462808922449e5ecfe51ca5"
@@ -37,6 +44,9 @@ Marcând astfel inserarea cu success a înregistrării în baza de date.
 </p>
 <p>
 -exemplu de request de tip DELETE folosind localhost:3000/api/records?id=644ffd612dfc088521ac4b61: acesta întoarce ca și rezultat un JSON de următoarea structură:
+## JSON Data
+
+```json  
 {
     "data": {
         "acknowledged": true,
