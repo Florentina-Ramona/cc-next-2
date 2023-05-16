@@ -68,8 +68,8 @@ API-ul Vercel este o interfață programatică care permite utilizatorilor să i
         "insertedId": "6462808922449e5ecfe51ca5"
     }
 }
-Marcând astfel inserarea cu success a înregistrării în baza de date.
 ```
+Marcând astfel inserarea cu success a înregistrării în baza de date.
 <p>
 -exemplu de request de tip DELETE folosind localhost:3000/api/records?id=644ffd612dfc088521ac4b61: acesta întoarce ca și rezultat un JSON de următoarea structură:
 </p>
