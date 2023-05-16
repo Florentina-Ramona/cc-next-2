@@ -89,15 +89,15 @@ Marcând astfel ștergerea cu success a înregistrării din baza de date.
 </p>
 <p>
 MainPage.jsx:
-Pagina inițială MainPage.jsx conține apelarea unui request de tip GET '/api/records' în funcția denumită MainPage(), întorcând ca și response un JSON response.json() populat cu datele culese din bd setRecords(json.data), ce se afișează în interfața aplicației prin intermediul records.map((record => (<div key=<h5>{record.id}></h5>... Se identifică înregistrarea după id-ul acesteia, fiind mai apoi afișate detalii din baza de date, precum: {record.denumire}, {record.firma}, {record.tip}.
+Pagina inițială MainPage.jsx conține apelarea unui request de tip GET '/api/records' în funcția denumită MainPage(), întorcând ca și response un JSON response.json() populat cu datele culese din bd setRecords(json.data), ce se afișează în interfața aplicației prin intermediul records.map((record =>(key={record.id}... Se identifică înregistrarea după id-ul acesteia, fiind mai apoi afișate detalii din baza de date, precum: {record.denumire}, {record.firma}, {record.tip}.
 </p>
 <p>
 Filter.jsx:
 Pagina Filter.jsx conține apelarea unui request de tip GET '/api/records'  în funcția denumită MainPage(), întorcând ca și response un JSON response.json() populat cu datele culese din bd setRecords(json.data), dar pe care se aplică search menit să restrângă rezultatele afișate în funcție de criteriile utilizatorului. Astfel, acesta are posibilitatea de a căuta medicamente după denumirea acestora: setSearchText(event.target.value);
 record.denumire.toLowerCase().includes(searchText.toLowerCase())
-Se afișează în interfața aplicației prin intermediul filteredRecords.map((record)=> (<li key=<h5>{record.id}></h5>... Se identifică înregistrarea după denumirea acesteia, fiind mai apoi afișate detalii din baza de date, precum: {record.firma}, {record.tip}.
+Se afișează în interfața aplicației prin intermediul filteredRecords.map((record)=>(key={record.id}... Se identifică înregistrarea după denumirea acesteia, fiind mai apoi afișate detalii din baza de date, precum: {record.firma}, {record.tip}.
 </p>
 Search.jsx:
 Pagina Search.jsx conține apelarea unui request de tip GET '/api/records' în funcția denumită MainPage(), întorcând ca și response un JSON response.json() populat cu datele culese din bd setRecords(json.data), dar pe care se aplică un filter menit să restrângă rezultatele afișate în funcție de criteriile utilizatorului. Astfel, acesta are posibilitatea de a căuta medicamente după tipul acestora selectat dintr-un dropdown: setFilterType(event.target.value);
 setRecords(json.data.filter(record => record.tip === filterType));
-Se afișează în interfața aplicației prin intermediul records.map((record => (<li key=<h5>{record.id}></h5>. Sunt afișate detalii din baza de date, precum: {record.denumire}-{record.firma}, {record.tip}.
+Se afișează în interfața aplicației prin intermediul records.map((record =>(key={record.id}. Sunt afișate detalii din baza de date, precum: {record.denumire}-{record.firma}, {record.tip}.
