@@ -1,7 +1,7 @@
 <h3>
-    -Link video: https://youtu.be/5dVBiDlYuYc
-    -Link publicare: https://cc-next-2-f0w4dt54h-florentina-ramona.vercel.app/
-    -Link GitHub: https://github.com/Florentina-Ramona/cc-next-2.
+    -Link video: https://youtu.be/5dVBiDlYuYc</br>
+    -Link publicare: https://cc-next-2-f0w4dt54h-florentina-ramona.vercel.app/</br>
+    -Link GitHub: https://github.com/Florentina-Ramona/cc-next-2</br>
 </h3>
 <h2>
     1.	Introducere
