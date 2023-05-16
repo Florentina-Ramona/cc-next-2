@@ -3,6 +3,7 @@
 <p>
 -exemplu de request de tip GET folosind localhost:3000/api/records: acesta întoarce ca și rezultat un JSON ce conține toate elementele stocate în baza de date de tip MongoDB. Fiecare element al JSON-ului are următoarea structură: id-ul, denumirea, firma și tipul medicamentului.</p>
 <p>
+    
 ## JSON Data
 
 ```json  
@@ -48,6 +49,7 @@ Marcând astfel inserarea cu success a înregistrării în baza de date.
 <p>
 -exemplu de request de tip DELETE folosind localhost:3000/api/records?id=644ffd612dfc088521ac4b61: acesta întoarce ca și rezultat un JSON de următoarea structură:
 <p>
+    
 ## JSON Data
 
 ```json  
