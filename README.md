@@ -34,7 +34,7 @@ API-ul Vercel este o interfață programatică care permite utilizatorilor să i
 <p>
 -exemplu de request de tip GET folosind localhost:3000/api/records: acesta întoarce ca și rezultat un JSON ce conține toate elementele stocate în baza de date de tip MongoDB. Fiecare element al JSON-ului are următoarea structură: id-ul, denumirea, firma și tipul medicamentului.</p>
 </p>
-    ![image](https://github.com/Florentina-Ramona/cc-next-2/assets/75133974/8c5340a0-4cbe-4def-9463-77b194e47e9a)
+
 ## JSON Data
 
 ```json  
