@@ -1,3 +1,7 @@
+<h3>
+Medicamentele contribuie enorm la îmbunătățirea sănătății unui popor, la reducerea necesității executării unor operații cât și a timpului petrecut în spitale. Observăm cum datorită tututor tratamentelor dezvoltate, speranța de viață a crescut cu până la 30 de ani față de secolul trecut. Este de precizat scăderea semnificativă a deceselor în rândul bolnavilor de HIV și cancer.
+Așadar, dorești să vezi în timp real stocul de medicamente disponibile? Ei bine, această aplicație web aduce farmacia mai aproape de tine la doar câteva click-uri distanță din confortul tău propriu!
+</h3>
 <p>Vom analiza următoarele tipuri de request ce se apelează în aplicație:
 </p>
 <p>
