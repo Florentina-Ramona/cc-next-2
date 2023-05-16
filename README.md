@@ -1,3 +1,8 @@
+<h3>
+    -Link video: https://youtu.be/5dVBiDlYuYc
+    -Link publicare: https://cc-next-2-f0w4dt54h-florentina-ramona.vercel.app/
+    -Link GitHub: https://github.com/Florentina-Ramona/cc-next-2.
+</h3>
 <h2>
     1.	Introducere
 </h2>
@@ -9,8 +14,9 @@ Așadar, dorești să vizualizezi medicamentele disponibile? Ei bine, această a
 2.	Descriere problemă
 </h2>
 <p>
-    Această aplicație a fost concepută în ideea în care la ora actuală este necesară deplasarea fizică la sediul farmaciilor pentru a verifica stocul acestora pentru anumite medicamente, cauzând astfel disconfort oamenilor care doresc să intre în posesia medicamentelor în mod cât mai facil.
-Astfel, această aplicație care rulează pe link-ul: https://cc-next-2-f0w4dt54h-florentina-ramona.vercel.app/ oferă utilizatorilor ei o experiență iî ton cu noul val informatic.
+Această aplicație a fost concepută în ideea în care la ora actuală este necesară deplasarea fizică la sediul farmaciilor pentru a verifica stocul acestora pentru anumite medicamente, cauzând astfel disconfort oamenilor care doresc să intre în posesia medicamentelor în mod cât mai facil.
+Astfel, această aplicație care rulează pe link-ul: https://cc-next-2-f0w4dt54h-florentina-ramona.vercel.app/ și al cărei prezentare poate fi vizionată pe link-ul: https://youtu.be/5dVBiDlYuYc oferă utilizatorilor ei o experiență în ton cu noul val informatic.
+De asemenea, codul pentru aceasta se regăsește la adresa de github: https://github.com/Florentina-Ramona/cc-next-2.
 </p>
 <h2>
 3.	Descriere API
@@ -28,7 +34,7 @@ API-ul Vercel este o interfață programatică care permite utilizatorilor să i
 <p>
 -exemplu de request de tip GET folosind localhost:3000/api/records: acesta întoarce ca și rezultat un JSON ce conține toate elementele stocate în baza de date de tip MongoDB. Fiecare element al JSON-ului are următoarea structură: id-ul, denumirea, firma și tipul medicamentului.</p>
 </p>
-    
+    ![image](https://github.com/Florentina-Ramona/cc-next-2/assets/75133974/8c5340a0-4cbe-4def-9463-77b194e47e9a)
 ## JSON Data
 
 ```json  
