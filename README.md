@@ -1,4 +1,6 @@
 <p>##Vom analiza următoarele tipuri de request ce se apelează în aplicație:
+</p>
+<p>
 -exemplu de request de tip GET folosind localhost:3000/api/records: acesta întoarce ca și rezultat un JSON ce conține toate elementele stocate în baza de date de tip MongoDB. Fiecare element al JSON-ului are următoarea structură: id-ul, denumirea, firma și tipul medicamentului.</p>
 <p>
 {
