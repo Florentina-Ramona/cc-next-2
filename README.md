@@ -32,6 +32,7 @@
 </p>
 <p>
 -exemplu de request de tip INSERT folosind localhost:3000//api/records?denumire=Paracetamol, 500 mg&firma=ZENTIVA&tip=PM: acesta întoarce ca și rezultat un JSON având următoarea structură:
+
 ## JSON Data
 
 ```json  
@@ -42,6 +43,7 @@
     }
 }
 Marcând astfel inserarea cu success a înregistrării în baza de date.
+```
 </p>
 <p>
 -exemplu de request de tip DELETE folosind localhost:3000/api/records?id=644ffd612dfc088521ac4b61: acesta întoarce ca și rezultat un JSON de următoarea structură:
